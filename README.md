@@ -25,7 +25,7 @@ Börja med att göra ett grundläggande html5-dokument som
 - … förbereder en ny script-tag som ger dig möjlighet att skriva jQuery-kod _efter_ att **document** har nått status **ready**
 - … skriver ut "Jonas!" i JS-konsolen
 
-När du skrivit ditt dokument kan du kolla på mitt här: [XYZ]
+När du skrivit ditt dokument kan du kolla på mitt här: [Jonas förslag](https://github.com/cjgk/beargramming/blob/15016a265c7b4dd84776f50273520451f762dfd3/index.html)
 
 ###Uppmärkningsstruktur
 Nu är det dags att bestämma strukturen på hur det här ska se ut, kodmässigt.
@@ -34,3 +34,5 @@ Nu är det dags att bestämma strukturen på hur det här ska se ut, kodmässigt
 - Ska ha knappar för att gå framåt och bakåt i listan över bilder
 - Ska vara inkapslat i en div så man kan flytta den
 - Det är en lista över bilder, så kapsla in dem i ett element som är semantiskt relevant
+
+När du lagt till det kan du kolla på mitt här: [Jonas förslag](https://github.com/cjgk/beargramming/blob/f649e60436d8100d718bf7e1aeb563179017f1a6/index.html)
