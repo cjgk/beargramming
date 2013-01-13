@@ -51,3 +51,34 @@ Sånt här gör ju du dagligen, med förbundna ögon, men som vanligt kan du kol
 
 - [Jonas förslag](https://github.com/cjgk/beargramming/blob/31a914f3f8e210cb5529ac98e682e0c99b3a3067/index.html)
 - [Vad som ändrat sig sen sist](https://github.com/cjgk/beargramming/compare/f649e60436d8100d718bf7e1aeb563179017f1a6%E2%80%A631a914f3f8e210cb5529ac98e682e0c99b3a3067#index.html)
+
+##Del 4. Äntligen KOD!
+Nu ska vi skriva lite JS! jQuery-JS, men ändå. Ledsen att harva igenom all skit först, men det är viktigt att vi har samma grund.
+
+###Krav på funktionaliteten
+- Man ska medelst knapptryck kunna hoppa en bild framåt eller bakåt
+- När man når sista bilden och trycker nästa, så ska man komma till första
+- Samma som ovan, fast sista bilden och tvärtom
+
+Jag tänker som såhär: Vi har lagt alla bilder i en lista och med CSS begränsat den så man bara ser den första bilden i listan. Den första SYNLIGA bilden i listan!
+
+Således:
+
+- Besökaren trycker på "Nästa"
+	- Scriptet letar upp den första synliga bilden i listan och gömmer den
+		- Om den första synliga bilden, är den sista bilden i listan, visa alla bilder
+- Besökaren trycker på "Förra"
+	- Scriptet letar upp den sista gömda bilden och visar den
+		- Om det inte finns någon gömd bild, göm alla bilder utom den sista i listan
+		
+Låter det bra? Bra!
+
+###Doppa fötterna
+Vi börjar med att att binda events till knapparna och skriver ut deras funktion i konsolen, så att vi vet att knapparna reagerar som de ska.
+
+Så när eventet "click" sker på "Nästa" så ska det skrivas ut "next" i konsolen och likaså ska det skrivas ut "previous" i konsolen för eventet "click" på "Förra".
+
+Du vet hur det funkar:
+
+- [Jonas Förslag](https://github.com/cjgk/beargramming/blob/e6af731474b6cfad83a7289704ac258658a48ae6/index.html)
+- [Ändringar sen sist](https://github.com/cjgk/beargramming/compare/31a914f3f8e210cb5529ac98e682e0c99b3a3067%E2%80%A6e6af731474b6cfad83a7289704ac258658a48ae6#index.html)
