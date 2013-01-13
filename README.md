@@ -102,3 +102,13 @@ I programmering finns ju inget facit, men det här funkar:
 
 - [Jonas](https://github.com/cjgk/beargramming/blob/0f711464a833b9aed9073d137aa2f62d3c6ac422/index.html)
 - [Diff](https://github.com/cjgk/beargramming/compare/f56286d9dc3633f9c71f532b618d9e6c7e551e95%E2%80%A60f711464a833b9aed9073d137aa2f62d3c6ac422#index.html)
+
+###Baklänges då?
+Jag ska kolla på Bilbo nu, så jag hinner inte skriva något om det, så det blir din hemläxa. Använd github för att göra en pull request med lösningen så ska jag kolla på den.
+
+Andra grejer att fixa (i varsin pull request!!!):
+
+- Slajda bilderna horisontellt istället för vertikalt
+- Fixa den fruktansvärt fula övergången mellan sista och första bild när man rundar listan
+
+Ring om det är något. När jag inte jobbar. Hej!
