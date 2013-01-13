@@ -62,18 +62,16 @@
         <script>
             $(function () { 
                 $(".next").on('click', function (event) {
-                    // Helt normal CSS-selector: Alla <li> som är barn till en .images som ligger i en .jbc-carousel
                     var listItems = $(".jbc-carousel .images li");
-
-                    // Det var ALLA <li>'s, så vi filtrerar dem på de som är synliga.
-                    // :visisble är specifikt för jQuery, så man får tråla dokumentationen en del
                     var visibleListItems = listItems.filter(':visible');
 
-                    // Men vi har fortfarande ALLA synliga <li>'s, så vi plockar ut den första
-                    var firstVisibleListItem = visibleListItems.first();
+                    if (visibleListItems.length == 1) { // Om det bara finns en synlig <li> så det den sista va?
+                        listItems.show();
+                        return; // return avslutar hela funktionen vi är i, så inget efter return körs. 
+                    }
 
-                    // Sen GÖMMER VI SKITEN!!!
-                    firstVisibleListItem.slideUp(1000); // Måste ju stajla med slajd
+                    var firstVisibleListItem = visibleListItems.first();
+                    firstVisibleListItem.slideUp(1000);
                 });
 
                 $(".prev").on('click', function (event) {
