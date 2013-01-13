@@ -39,3 +39,16 @@ När du lagt till det kan du kolla här:
 
 - [Jonas förslag](https://github.com/cjgk/beargramming/blob/f649e60436d8100d718bf7e1aeb563179017f1a6/index.html) 
 - [Och här är ändringarna sen sist](https://github.com/cjgk/beargramming/compare/15016a265c7b4dd84776f50273520451f762dfd3%E2%80%A6f649e60436d8100d718bf7e1aeb563179017f1a6#index.html)
+
+##Del 3. Piffa till det lite lagom
+Ja, det var ju hysteriskt fult, men vi har ju hela sminklådan med oss, så det kommer bli fint. Vi ska närma oss den slutgiltiga formen nu, så vi måste krava lite igen.
+
+###Krav på "designen"
+- Lämna bara plats för en bild
+- Visa bara den första bilden
+- Lägg in knapparna för att byta bild på ett sobert och användarvänligt ställe
+
+Sånt här gör ju du dagligen, med förbundna ögon, men som vanligt kan du kolla på:
+
+- [Jonas förslag](https://github.com/cjgk/beargramming/blob/31a914f3f8e210cb5529ac98e682e0c99b3a3067/index.html)
+- [Vad som ändrat sig sen sist](https://github.com/cjgk/beargramming/compare/f649e60436d8100d718bf7e1aeb563179017f1a6%E2%80%A631a914f3f8e210cb5529ac98e682e0c99b3a3067#index.html)
