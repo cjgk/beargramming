@@ -61,6 +61,13 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>
             $(function () { 
+                $(".next").on('click', function (event) {
+                    console.log('next');
+                });
+
+                $(".prev").on('click', function (event) {
+                    console.log('prev');
+                });
             });
         </script>
     </body>
