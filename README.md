@@ -35,4 +35,7 @@ Nu är det dags att bestämma strukturen på hur det här ska se ut, kodmässigt
 - Ska vara inkapslat i en div så man kan flytta den
 - Det är en lista över bilder, så kapsla in dem i ett element som är semantiskt relevant
 
-När du lagt till det kan du kolla på mitt här: [Jonas förslag](https://github.com/cjgk/beargramming/blob/f649e60436d8100d718bf7e1aeb563179017f1a6/index.html)
+När du lagt till det kan du kolla här: 
+
+- [Jonas förslag](https://github.com/cjgk/beargramming/blob/f649e60436d8100d718bf7e1aeb563179017f1a6/index.html) 
+- [Och här är ändringarna sen sist](https://github.com/cjgk/beargramming/compare/15016a265c7b4dd84776f50273520451f762dfd3%E2%80%A6f649e60436d8100d718bf7e1aeb563179017f1a6#index.html)
