@@ -8,18 +8,27 @@
 
     <body>
         <!-- Här ska vi snurra! -->
-
+        <div class="jbc-carousel">
+            <div class="control">
+                <button class="prev">Förra</button>
+                <button class="next">Nästa</button>
+            </div>
+            
+            <div class="images">
+                <ol>
+                    <li><img src="http://lorempixel.com/640/480/nightlife/1"></li>
+                    <li><img src="http://lorempixel.com/640/480/nightlife/2"></li>
+                    <li><img src="http://lorempixel.com/640/480/nightlife/3"></li>
+                    <li><img src="http://lorempixel.com/640/480/nightlife/4"></li>
+                    <li><img src="http://lorempixel.com/640/480/nightlife/5"></li>
+                </ol>
+            </div>
+        </div>
         <!-- Slut på snurr -->
 
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>
-            $(function () { // jQuery förkortar $(document).ready(function () {} ) till $(function () {})
-                /* 
-                Har du använt JS-konsolen i Chrome? Om inte, håll ner opt+cmd och tryck på i.
-                Välj Console-panelen. Där kan du a) Se output till konsolen och b) Skriva egen kod.
-                Testa själv (om jQuery är laddat), skriv $('body').css('background-color', 'red') och tryck enter.
-                */
-                console.log('Jonas!');
+            $(function () { 
             });
         </script>
     </body>
