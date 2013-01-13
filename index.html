@@ -4,6 +4,36 @@
     <head>
         <meta charset=utf-8>
         <title>Snurr snurr</title>
+        <style type="text/less"> /*Notera text/less! */
+        .jbc-carousel {
+            border: 3px dashed black;
+            width: 640px;
+            height: 480px;
+            overflow: hidden;
+            position: relative;
+
+            .control {
+                border: 1px dashed red;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+
+            .images {
+                ol {
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+        </style>
+
     </head>
 
     <body>
@@ -27,6 +57,7 @@
         </div>
         <!-- Slut på snurr -->
 
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.3/less.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>
             $(function () { 
