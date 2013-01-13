@@ -52,6 +52,8 @@ Sånt här gör ju du dagligen, med förbundna ögon, men som vanligt kan du kol
 - [Jonas förslag](https://github.com/cjgk/beargramming/blob/31a914f3f8e210cb5529ac98e682e0c99b3a3067/index.html)
 - [Vad som ändrat sig sen sist](https://github.com/cjgk/beargramming/compare/f649e60436d8100d718bf7e1aeb563179017f1a6%E2%80%A631a914f3f8e210cb5529ac98e682e0c99b3a3067#index.html)
 
+Jag är så JÄVLA LAT så jag använde LESS. Det är coolt också. För coola, lata killar.
+
 ##Del 4. Äntligen KOD!
 Nu ska vi skriva lite JS! jQuery-JS, men ändå. Ledsen att harva igenom all skit först, men det är viktigt att vi har samma grund.
 
@@ -82,3 +84,21 @@ Du vet hur det funkar:
 
 - [Jonas Förslag](https://github.com/cjgk/beargramming/blob/e6af731474b6cfad83a7289704ac258658a48ae6/index.html)
 - [Ändringar sen sist](https://github.com/cjgk/beargramming/compare/31a914f3f8e210cb5529ac98e682e0c99b3a3067%E2%80%A6e6af731474b6cfad83a7289704ac258658a48ae6#index.html)
+
+###Visa nästa bild (gömma första synliga)
+Okej, du vet vad du ska göra! 
+
+När man trycker på "Nästa", hitta alla bilder i vår lista som inte är gömda och göm sen den första av dem. Go go go!
+
+Tjuvkika:
+
+- [Jonas förslag](https://github.com/cjgk/beargramming/blob/f56286d9dc3633f9c71f532b618d9e6c7e551e95/index.html)
+- [Diff](https://github.com/cjgk/beargramming/compare/e6af731474b6cfad83a7289704ac258658a48ae6%E2%80%A6f56286d9dc3633f9c71f532b618d9e6c7e551e95#index.html)
+
+###Hantera sista bilden
+Om du gjorde precis som jag gjorde i förra steget, så blev sista trycket på "Nästa" jävligt tråkigt, för det blev bara vitt. Det suger, för det stämmer inte med vår spec och då får vi inte betalt. Det måste vi greja!
+
+I programmering finns ju inget facit, men det här funkar:
+
+- [Jonas](https://github.com/cjgk/beargramming/blob/0f711464a833b9aed9073d137aa2f62d3c6ac422/index.html)
+- [Diff](https://github.com/cjgk/beargramming/compare/f56286d9dc3633f9c71f532b618d9e6c7e551e95%E2%80%A60f711464a833b9aed9073d137aa2f62d3c6ac422#index.html)
