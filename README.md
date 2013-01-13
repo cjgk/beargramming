@@ -13,7 +13,6 @@ Vi vill göra en webbsideskomponent som kan visa ett odefinierat antal bilder, e
 ###Krav på projektet
 - Listan över bilder ska inte behöva hårdkodas i HTML
 - Användaren ska själv kunna stega sig igenom bilderna
-- Om användaren inte har JavaScript påslaget ska hen fortfarande kunna se bilderna
 
 ##Del 2. Gjuta grunden
 Det här är det näst tråkiaste, efter att faktiskt finputsa på slutet när man fått funktionaliteten på plats, men jag antar att det måste göras.
